@@ -3,8 +3,11 @@
 	<div class="span3 Module sidebar">
 		<div class="well" style="padding: 8px 0px;">
 			<ul class="nav nav-list">
-				<li{% if page.current == 'overview' %} class="active"{% endif %}>
-				<a href="overview.html">Overview</a>
+				<li{% if page.current == 'index' %} class="active"{% endif %}>
+				<a href="index.html">Overview</a>
+				</li>
+				<li{% if page.current == 'Requirements' %} class="active"{% endif %}>
+				<a href="requirements.html">Requirements</a>
 				</li>
 				<li{% if page.current == 'releases' %} class="active"{% endif %}>
 				<a href="releases.html">Releases</a>
