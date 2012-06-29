@@ -6,7 +6,7 @@ title: Install Amahi on Ubuntu 12.04
 * Make sure you have properly configured a profile in your [Amahi control panel](https://www.amahi.org/users)
 * Download the Ubuntu 12.04 CD from the [ubuntu downloads](http://www.ubuntu.com/download) page
 * Boot the installation machine from the Ubuntu installation CD
-* Install Ubuntu until you get to the desktop (or the command line in the server)
+* Install Ubuntu until you get to the desktop (or the command line in the server).  See <a href="http://netgator.blogspot.com/2012/04/ubuntu-1204-installation-process-slide.html" target="_">here</a> for detailed instructions.
 
 # Get the installer
 
