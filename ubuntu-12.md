@@ -6,11 +6,12 @@ title: Install Amahi on Ubuntu 12.04
 * Make sure you have properly configured a profile in your [Amahi control panel](https://www.amahi.org/users)
 * Download the Ubuntu 12.04 CD from the [ubuntu downloads](http://www.ubuntu.com/download) page
 * Boot the installation machine from the Ubuntu installation CD. See the [requirements](requirements.html)
-* Install Ubuntu until you get to the desktop (or the command line in the server).  See <a href="http://netgator.blogspot.com/2012/04/ubuntu-1204-installation-process-slide.html" target="_">this article</a> for detailed instructions on installing Ubuntu.
+* Install Ubuntu until you **get to the desktop** (or the command line in the server).  See <a href="http://netgator.blogspot.com/2012/04/ubuntu-1204-installation-process-slide.html" target="_">this article</a> for detailed instructions on installing Ubuntu.
 
 # 2. Install Amahi
 
-* Start a terminal window. On the Dash home, search for _terminal_. Click on the icon with caption _terminal_
+* At the desktop, start a terminal window. On the Dash home, search for _terminal_. Click on the icon with caption _terminal_
+<a href="static/images/u12/00-terminal.png" class="fancybox" title="Terminal"><img src="static/images/u12/00-terminal.png" /></a>
 * Execute this command in the terminal window:
 
 	`wget http://u12.amahi.org/install-amahi`
