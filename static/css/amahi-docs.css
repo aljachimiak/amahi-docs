@@ -432,3 +432,6 @@ ul.nav.list > li {
 .no-underline:hover {
   text-decoration: none;
 }
+
+.centered img { margin: 10px auto; padding: 4px; float: center; border: 1px solid #ccc; }
+

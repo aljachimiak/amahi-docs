@@ -6,28 +6,38 @@ title: Install Amahi on Ubuntu 12.04
 * Make sure you have properly configured a profile in your [Amahi control panel](https://www.amahi.org/users)
 * Download the Ubuntu 12.04 CD from the [ubuntu downloads](http://www.ubuntu.com/download) page
 * Boot the installation machine from the Ubuntu installation CD. See the [requirements](requirements.html)
-* Install Ubuntu until you **get to the desktop** (or the command line in the server).  See <a href="http://netgator.blogspot.com/2012/04/ubuntu-1204-installation-process-slide.html" target="_">this article</a> for detailed instructions on installing Ubuntu.
+* Install Ubuntu until you **get to the desktop** (or the command line in the server).  See <a href="http://netgator.blogspot.com/2012/04/ubuntu-1204-installation-process-slide.html" target="_">this article</a> for illustrated instructions on installing Ubuntu.
 
 # 2. Install Amahi
 
+
 * At the desktop, start a terminal window. On the Dash home, search for _terminal_. Click on the icon with caption _terminal_
-<a href="static/images/u12/00-terminal.png" class="fancybox" title="Terminal"><img src="static/images/u12/00-terminal.png" /></a>
-* Execute this command in the terminal window:
+
+	<a href="static/images/u12/00-terminal.png" class="fancybox centered" title="Open a Terminal Window"><img src="static/images/u12/00-terminal-thumb.png" /></a>
+
+
+* Execute the following two commands in the terminal window:
 
 	`wget http://u12.amahi.org/install-amahi`
-* Then start the Amahi install process with
 
 	`sh install-amahi`
 
-* The install script will ask for two things
+	<a href="static/images/u12/01-wget.png" class="fancybox centered" title="Get the Amahi Installer"><img src="static/images/u12/01-wget-thumb.png" /></a>
+
+* The first command gets the installer and the second one starts the Amahi install. The install script will ask for two things
 	1. Your **password**. Some of it runs as an administrator user
 	1. Your **install code**. You get this from your [Amahi control panel](https://www.amahi.org/users)
 
-* This should take a while: about 5~10 minutes on a recent system
-* The time it takes depends on the speed of your PC and your internet connection
-* Once the installation is completed the system will ask you to reboot
+	<a href="static/images/u12/02-install-amahi.png" class="fancybox centered" title="Run the Amahi Installer"><img src="static/images/u12/02-install-amahi-thumb.png" /></a>
 
-* Rebooting will change the IP address of your system to the address you gave in your [Amahi control panel](https://www.amahi.org/users)
+
+* This part may take about 5 to 10 minutes on a recent system, much more on older ones
+
+* The time it takes depends on the speed of your PC and your internet connection ![](static/images/tip.png)
+
+* Once the installation is completed the installer **will ask you to reboot**
+
+* Rebooting will change the IP address of your system to the address you gave in your [Amahi control panel](https://www.amahi.org/users) ![](static/images/tip.png)
 
 # 3. Using Amahi
 

@@ -2,10 +2,17 @@
 layout: homepage
 title: Install Fedora
 ---
+
+# Important Notes
+
+1. The latest release for Amahi is based on [Ubuntu 12.04](ubuntu-12.html). Installing on Fedora is **not supported.**
+
+2. These old instructions are being migrated here and are available in the [main site instructions](http://www.amahi.org/instructions) with images and more details.
+
 # Install Fedora
 * Boot the installation machine from the Fedora installation DVD
 * Follow the instructions to install Fedora per the screenshots below. If you prefer details, visit this very detailed guide for Linux novices
-* Use the defaults to install Fedora in graphical mode (click the paper clips for screenshots).
+* Use the defaults to install Fedora in graphical mode
 
 	Use DHCP for the install process, unless you know you really need a static IP for install.
 
