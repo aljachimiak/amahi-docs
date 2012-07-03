@@ -37,7 +37,12 @@ title: Install Amahi on Ubuntu 12.04
 
 * Once the installation is completed the installer **will ask you to reboot**
 
+## Installation Notes
+
 * Rebooting will change the IP address of your system to the address you gave in your [Amahi control panel](https://www.amahi.org/users) ![](static/images/tip.png)
+
+* Only the first ethernet card `eth0` is supported out of the box. See [other options](http://wiki.amahi.org/index.php/ETH1) ![](static/images/tip.png)
+	
 
 # 3. Using Amahi
 
