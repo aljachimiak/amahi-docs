@@ -37,17 +37,29 @@ title: Install Amahi on Ubuntu 12.04
 
 * Once the installation is completed the installer **will ask you to reboot**
 
+	<a href="static/images/u12/03-reboot.png" class="fancybox centered" title="Reboot at the end of installation"><img src="static/images/u12/03-reboot-thumb.png" /></a>
+
+
 ## Installation Notes
 
 * Rebooting will change the IP address of your system to the address you gave in your [Amahi control panel](https://www.amahi.org/users) ![](static/images/tip.png)
 
 * Only the first ethernet card `eth0` is supported out of the box. See [other options](http://wiki.amahi.org/index.php/ETH1) ![](static/images/tip.png)
-	
 
 # 3. Using Amahi
 
-After rebooting, `http://hda` should be working if entered on the local system. From a remote system this will only work if you have your DNS pointing to the Amahi system as otherwise your system cannot resolve the name "hda".
+* After rebooting, your Amahi HDA (Home Digital Assistant), should be fully working. Now it's time to set it up. When the system gets to the desktop, there are two links with Amahi logos on them. Click on the Dashboard one. Firefow should come up.
 
-If your HDA appears to work well, you may turn off DHCP on your router and **reboot all clients** in your network, so that they get their IP from your HDA!
+	<a href="static/images/u12/04-first-login-window.png" class="fancybox centered" title="First login for the first time"><img src="static/images/u12/04-first-login-window-thumb.png" /></a>
+
+* Firefox should come up with `http://hda` and ask you to login. The first login is special, since the first user will be set up at this point, by asking the reset the password.
+
+	<a href="static/images/u12/05-first-login-setup.png" class="fancybox centered" title="First login for the first time"><img src="static/images/u12/05-first-login-setup-thumb.png" /></a>
+
+* At this point the system should be set up and fully operational.
+
+* To access your HDA from a remote system, things will only work if you have your DNS pointing to the Amahi system as otherwise your system cannot resolve the name "hda".
+
+* If your HDA appears to work well, you may optionally turn off DHCP on your router and **reboot all clients** in your network, so that they get their IP from your HDA!
 
 Start setting up your users, your shares, install some apps and enjoy!!
