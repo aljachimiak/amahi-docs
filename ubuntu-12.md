@@ -63,3 +63,5 @@ title: Install Amahi on Ubuntu 12.04
 * If your HDA appears to work well, you may optionally turn off DHCP on your router and **reboot all clients** in your network, so that they get their IP from your HDA!
 
 Start setting up your users, your shares, install some apps and enjoy!!
+
+NOTE:  SSH ([OpenSSH](http://www.amahi.org/apps/openssh) or [Dropbear](http://www.amahi.org/apps/openssh)) and [VPN](http://www.amahi.org/apps/openvpn) access are not installed by default.  You will need to install them via the your HDA dashboard.
