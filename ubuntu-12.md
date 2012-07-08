@@ -64,4 +64,4 @@ title: Install Amahi on Ubuntu 12.04
 
 Start setting up your users, your shares, install some apps and enjoy!!
 
-**NOTE:**  SSH ([OpenSSH](http://www.amahi.org/apps/openssh) or [Dropbear](http://www.amahi.org/apps/dropbear)) and VPN ([OpenVPN](http://www.amahi.org/apps/openvpn)) access are not installed by default.  You will need to install them via the your HDA dashboard.
+**NOTE:**  SSH ([OpenSSH](http://www.amahi.org/apps/openssh) or [Dropbear](http://www.amahi.org/apps/dropbear)) and VPN ([OpenVPN](http://www.amahi.org/apps/openvpn)) are not installed by default.  You will need to install them via your HDA dashboard.
