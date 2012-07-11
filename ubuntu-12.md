@@ -52,7 +52,7 @@ title: Install Amahi on Ubuntu 12.04
 
 	<a href="static/images/u12/04-first-login-window.png" class="fancybox centered" title="First login for the first time"><img src="static/images/u12/04-first-login-window-thumb.png" /></a>
 
-* Firefox should come up with `http://hda` and ask you to login. The first login is special, since the first user will be set up at this point, by asking the reset the password.
+* Firefox should come up with `http://hda` and ask you to login. You should use the credentials of the user you created when installing Ubuntu. The username and the password are *case sensitive*. The first login is special, since the first user will be set up at this point, by asking the reset the password.
 
 	<a href="static/images/u12/05-first-login-setup.png" class="fancybox centered" title="First login for the first time"><img src="static/images/u12/05-first-login-setup-thumb.png" /></a>
 
