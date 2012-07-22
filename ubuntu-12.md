@@ -52,7 +52,9 @@ title: Install Amahi on Ubuntu 12.04
 
 	<a href="static/images/u12/04-first-login-window.png" class="fancybox centered" title="First login for the first time"><img src="static/images/u12/04-first-login-window-thumb.png" /></a>
 
-* Firefox should come up with `http://hda` and ask you to login. The first login is special, since the first user will be set up at this point, by asking the reset the password.
+* Firefox should come up with `http://hda` and ask you to login.
+* Use the user credentials you created **while installing** not your Amahi web site login
+* The first login is special. The first user will be set up at this point, by asking to reset the password.
 
 	<a href="static/images/u12/05-first-login-setup.png" class="fancybox centered" title="First login for the first time"><img src="static/images/u12/05-first-login-setup-thumb.png" /></a>
 
@@ -61,5 +63,7 @@ title: Install Amahi on Ubuntu 12.04
 * To access your HDA from a remote system, things will only work if you have your DNS pointing to the Amahi system as otherwise your system cannot resolve the name "hda".
 
 * If your HDA appears to work well, you may optionally turn off DHCP on your router and **reboot all clients** in your network, so that they get their IP from your HDA!
+
+* Tip: if your client computers cannot connect to `http://hda` you may need to ensure that the client(s) use your HDA for DNS. The simplest way to do this is to disable DHCP in your network and allowing your HDA to be the sole DHCP server in it.
 
 Start setting up your users, your shares, install some apps and enjoy!!
