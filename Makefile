@@ -3,4 +3,4 @@ all:
 	jekyll --pygments --safe
 
 publish:
-	git push && git co gh-pages && git merge master && git push && git co master
+	git checkout gh-pages && git merge master && git push && git checkout master
