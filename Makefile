@@ -2,5 +2,5 @@
 all:
 	jekyll --pygments --safe
 
-publish:
+publish: all
 	git checkout gh-pages && git merge master && git push && git checkout master
