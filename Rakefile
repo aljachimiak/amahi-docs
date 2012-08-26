@@ -1,6 +1,5 @@
 #!/usr/bin/env rake
 require 'bundler'
-Bundler::GemHelper.install_tasks
 
 desc "install the bundle"
 task :bundle do
