@@ -2,9 +2,10 @@
 require 'bundler'
 Bundler::GemHelper.install_tasks
 
-desc "Bundle the gem"
+desc "install the bundle"
 task :bundle do
 	sh('bundle install')
+	sh('jekyll --pygments --safe')
 end
 
 task(:default).clear
