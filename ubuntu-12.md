@@ -8,6 +8,7 @@ title: Install Amahi on Ubuntu 12.04
 * Choose if you want to use the Desktop (GUI) version of Ubuntu or the Server version (no desktop after install)
 * Download the Ubuntu 12.04 CD from the [ubuntu downloads](http://www.ubuntu.com/download) page according to your choice
 * Boot the installation machine from the Ubuntu installation CD. See the [requirements](requirements.html)
+* Remember: do **not select and install** additional packages while installing Ubuntu. Amahi requires the default
 
 ### Desktop install
 * Install Ubuntu Desktop until you **get to the desktop**.
