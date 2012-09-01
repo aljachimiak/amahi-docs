@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="static/css/bootstrap-responsive.css" type="text/css" media="screen" />
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 		<link rel="stylesheet" href="static/css/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="static/css/style.css" type="text/css" />	
 		<script type="text/javascript" src="static/js/jquery.fancybox.pack.js"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -31,8 +32,8 @@ $(document).ready(function() {
 		$(".fancybox").attr('rel', 'gallery').fancybox({ padding : 5 });
 	});
 </script>
-<div class="container-fluid">
-	<div class="row Header{% if page.layout != 'homepage' %} with-border{% endif %}">
+<div class="container inner">
+	<div class="row-fluid Header{% if page.layout != 'homepage' %} with-border{% endif %}">
 		<div class="span6 Module logo">
 			<h1><a href="/">Amahi Docs</a></h1>
 		</div>
@@ -46,6 +47,4 @@ $(document).ready(function() {
 			</div>
 		</div>
 	</div>
-
-	<div class="row-fluid">
 		
